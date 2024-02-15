@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.product {
+  scale: 1;
+  transition: scale 115ms;
+}
+.product:hover {
+  scale: 1.15;
+}
